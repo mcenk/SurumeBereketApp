@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_anasayfa"
+        android:icon="@drawable/anasayfa"
+        android:title="@string/st_anasafya" />
+    <item
+        android:id="@+id/nav_hayvanlarim"
+        android:icon="@drawable/bottomicon"
+        android:title="@string/st_hayvanlarim" />
+    <item
+        android:id="@+id/nav_durumraporu"
+        android:icon="@drawable/durumraporu"
+        android:title="@string/st_durumraporu" />
+    <item
+        android:id="@+id/nav_gelirgider"
+        android:icon="@drawable/gelirgider"
+        android:title="@string/st_gelirgider" />
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">@color/anaEkranTakvim</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hint">#605B5B</color>
+    <color name="button">#BEFF9800</color>
+    <color name="hayvan_ekle_back">#F7F7F7</color>
+
+    <color name="gelirgider_dash_color">#4D179C9F</color>
+
+    <color name="gelirgider_gelir_color">#2EAE18</color>
+
+    <color name="gelirgider_gider_color">#AA1B1B</color>
+
+    <color name="grey">#605B5B</color>
+
+    <color name="anaEkranTakvim">#2B9C33</color>
+
+    <color name="disiRecycler">#D5F3DC</color>
+
+</resources>

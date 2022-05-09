@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_anasayfa">
+
+    <fragment
+        android:id="@+id/nav_anasayfa"
+        android:name="com.example.SurumeBereket.ui.anasayfa.AnasayfaFragment"
+        android:label="@string/st_anasafya"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/action_nav_anasayfa_to_nav_hayvanlarim"
+            app:destination="@id/nav_hayvanlarim" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_hayvanlarim"
+        android:name="com.example.SurumeBereket.ui.hayvanlarim.HayvanlarimFragment"
+        android:label="@string/st_hayvanlarim"
+        tools:layout="@layout/fragment_hayvanlarim" >
+        <action
+            android:id="@+id/action_nav_hayvanlarim_to_nav_durumraporu"
+            app:destination="@id/nav_durumraporu" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_durumraporu"
+        android:name="com.example.SurumeBereket.ui.durumraporu.DurumRaporuFragment"
+        android:label="@string/st_durumraporu"
+        tools:layout="@layout/fragment_durum_raporu" >
+        <action
+            android:id="@+id/action_nav_durumraporu_to_nav_gelirgider"
+            app:destination="@id/nav_gelirgider" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gelirgider"
+        android:name="com.example.SurumeBereket.ui.gelirgider.GelirGiderFragment"
+        android:label="@string/st_gelirgider"
+        tools:layout="@layout/fragment_gelir_gider" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ciftlikbilgileri"
+        android:name="com.example.SurumeBereket.ui.ciftlikbilgileri.CiftlikBilgileriFragment"
+        android:label="@string/st_ciftlikbilgileri"
+        tools:layout="@layout/fragment_ciftlik_bilgileri" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ayarlar"
+        android:name="com.example.SurumeBereket.ui.ayarlar.AyarlarFragment"
+        android:label="@string/st_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_iletisim"
+        android:name="com.example.SurumeBereket.ui.iletisim.IletisimFragment"
+        android:label="@string/st_iletisim"
+        tools:layout="@layout/fragment_iletisim" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cikisyap"
+        android:name="com.example.SurumeBereket.ui.cikisyap.CikisYapFragment"
+        android:label="@string/st_cikis"
+        tools:layout="@layout/fragment_cikis_yap" >
+    </fragment>
+</navigation>

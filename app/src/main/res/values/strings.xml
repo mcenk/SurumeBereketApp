@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Sürüme Bereket</string>
+    <string name="disiDetayString">Dişi Hayvan Detaylarım</string>
+    <string name="buzagiDetayString">Buzağı Detaylarım</string>
+    <string name="erkekDetayString">Erkek Hayvan Detaylarım</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Çiftçi Bilgileri Gelecek</string>
+    <string name="nav_header_subtitle">think!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="st_anasafya">Anasayfa</string>
+    <string name="st_hayvanlarim">Hayvanlarım</string>
+    <string name="st_durumraporu">Durum Raporu</string>
+    <string name="st_ayarlar">Ayarlar</string>
+    <string name="st_gelirgider">Gelir Gider</string>
+    <string name="st_ciftlikbilgileri">Çiftlik Bilgileri</string>
+    <string name="st_iletisim">İletişim</string>
+    <string name="st_cikis">Çıkış</string>
+
+    <string-array name="gider_kategorileri">
+        <item>Kategori Seçiniz</item>
+        <item>Yem Giderleri</item>
+        <item>Veteriner Hizmetleri</item>
+        <item>Hayvan Alımı</item>
+        <item>Ekipman Alımı</item>
+        <item>Diğer Giderler</item>
+    </string-array>
+
+    <string-array name="gelir_kategorileri">
+        <item>Kategori Seçiniz</item>
+        <item>Süt Satışı</item>
+        <item>Destekleme</item>
+        <item>Hayvan Satışı</item>
+        <item>Tarım Ürünü Satışı</item>
+        <item>Diğer Gelirler</item>
+    </string-array>
+
+    <string-array name="tarih_araligi">
+
+        <item>Bu ay</item>
+        <item>Geçen ay</item>
+        <item>Son 3 ay</item>
+        <item>Tüm Zamanlar</item>
+    </string-array>
+
+    <string-array name="buzagi_detay_listesi">
+        <item>Durum seçiniz</item>
+        <item>Hastalık görüldü</item>
+        <item>Aşılandı</item>
+        <item>Sütten kesildi</item>
+        <item>Küpe takıldı</item>
+        <item>Diğer durumlar</item>
+    </string-array>
+
+    <string-array name="disi_detay_listesi">
+        <item>Durum seçiniz</item>
+        <item>Hastalık görüldü</item>
+        <item>Aşılandı</item>
+        <item>Tohumlama yapıldı</item>
+        <item>Doğum yaptı</item>
+        <item>Düşük yaptı</item>
+        <item>Kuru döneme alındı</item>
+
+    </string-array>
+
+    <string-array name="erkek_detay_listesi">
+        <item>Durum seçiniz</item>
+        <item>Hastalık görüldü</item>
+        <item>Aşılandı</item>
+        <item>Kilo ölçümü yapıldı</item>
+        <item>Besiye alındı</item>
+
+
+    </string-array>
+
+    <string-array name="hayvan_turu">
+        <item>Hayvan türü seçiniz</item>
+        <item>Dişi hayvanlar</item>
+        <item>Erkek hayvanlar</item>
+        <item>Buzağılar</item>
+    </string-array>
+
+    <string-array name="durum_buzagilar">
+        <item>Sorgu seçiniz</item>
+        <item>Hasta olan buzağılar </item>
+        <item>Aşılanan buzağılar</item>
+        <item>Aşılanmayan buzağılar</item>
+        <item>Küpelenen buzağılar</item>
+        <item>Küpelenmeyen buzağılar</item>
+
+        <item>Sütten kesilen buzağılar</item>
+    </string-array>
+
+    <string-array name="durum_disi">
+        <item>Sorgu seçiniz</item>
+        <item>Hamile olan hayvanlar</item>
+        <item>Hamile olmayan hayvanlar</item>
+        <item>Kuru dönemde olan hayvanlar</item>
+        <item>Aşılanan hayvanlar</item>
+        <item>Aşılanmayan hayvanlar</item>
+        <item>Hasta olan hayvanlar</item>
+
+        <item> </item>
+    </string-array>
+
+    <string-array name="durum_erkek">
+        <item>Sorgu seçiniz</item>
+        <item>Hasta olan hayvanlar</item>
+        <item>Kilo ölçümü yapılan hayvanlar</item>
+        <item>Aşılanan hayvanlar</item>
+        <item>Aşılanmayan hayvanlar</item>
+        <item>Besiye alınan hayvanlar</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragmentlar buraya listelenecek</string>
+</resources>

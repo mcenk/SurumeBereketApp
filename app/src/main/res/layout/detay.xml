@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDetay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/anaEkranTakvim"
+            app:titleTextColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:isScrollContainer="false"/>
+
+        <ImageView
+            android:id="@+id/buzagiDetayPhoto"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_newcalf"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarDetay" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/detaycard1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buzagi_rec_arkaplan"
+            app:cardCornerRadius="40dp"
+            app:layout_constraintCircleRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buzagiDetayPhoto">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buzagi_rec_arkaplan"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Küpe Nu :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Adı :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cinsiyeti :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Doğum Tarihi :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Irkı :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Anne Adı :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Anne Küpe Nu :" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Baba Küpe Nu :" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="15dp">
+
+                        <TextView
+                            android:id="@+id/detayBuzagiKupeNu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/detayBuzagiAd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayCinsiyet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayDT"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayIrk"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayAnneAdi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayAnneKupeNu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Buzaginin adi" />
+
+                        <TextView
+                            android:id="@+id/buzagiDetayBabaKupeNu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Buzaginin adi" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/detayBuzagiCard2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/white"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detaycard1">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/buzagiDetayRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:padding="10dp"
+                app:layout_constraintCircleRadius="20dp"
+                tools:layout_editor_absoluteX="20dp" />
+
+        </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943699754722",
+    "project_id": "surumebereket",
+    "storage_bucket": "surumebereket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943699754722:android:86fdb2a9602c78871f28bb",
+        "android_client_info": {
+          "package_name": "com.example.SurumeBereket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943699754722-5060o5co0nomvr8tlojvfibiq9cnb00t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDALFhKg44nvDa0L-rUI-V1s8rAo5H3tfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943699754722-5060o5co0nomvr8tlojvfibiq9cnb00t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

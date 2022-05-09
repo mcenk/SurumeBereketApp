@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gelirgider_navigation"
+    app:startDestination="@+id/gelirgider_anasayfa">
+
+    <fragment
+        android:id="@+id/gelirgider_gelir"
+        android:name="com.example.SurumeBereket.GelirGiderAlt.GGGelirFragment"
+        android:label="Gelir"
+        tools:layout="@layout/gelirgider_gelir_fragment" />
+
+    <fragment
+        android:id="@+id/gelirgider_anasayfa"
+        android:name="com.example.SurumeBereket.GelirGiderAlt.GGDashFragment"
+        android:label="Durum Özeti"
+        tools:layout="@layout/gelirgider_dash_fragment" />
+
+    <fragment
+        android:id="@+id/gelirgider_gider"
+        android:name="com.example.SurumeBereket.GelirGiderAlt.GGGiderFragment"
+        android:label="Gider"
+        tools:layout="@layout/gelirgider_gider_fragment" />
+</navigation>

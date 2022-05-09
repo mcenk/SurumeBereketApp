@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gelirgider_gelir"
+        android:icon="@drawable/gelirgider_ekle"
+        android:title="Gelir">
+
+    </item>
+    <item
+        android:id="@+id/gelirgider_anasayfa"
+        android:icon="@drawable/gelirgider_home"
+        android:title="Durum Özeti">
+
+    </item>
+    <item
+        android:id="@+id/gelirgider_gider"
+        android:icon="@drawable/gelirgider_cikar"
+        android:title="Gider ">
+
+    </item>
+</menu>

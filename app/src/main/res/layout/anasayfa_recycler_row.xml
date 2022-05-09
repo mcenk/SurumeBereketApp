@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/anasaydaRecCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="@color/disiRecycler">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/buzagiDetayPhotoRc"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/newcow"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="2.5"
+                tools:layout_editor_absoluteX="80dp">
+
+                <TextView
+                    android:id="@+id/anasayfaRecKupeNu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="122121212"
+                    android:textColor="@color/hint"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/anasayfaRecAdi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+
+                    android:text="Sutlu Kiz"
+                    android:textColor="@color/hint"
+                    android:textSize="14dp" />
+
+
+            </LinearLayout>
+                <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:orientation="vertical">
+            <TextView
+                android:id="@+id/anasayfaRecBilgi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doğuma kalan süre "
+                android:layout_gravity="center"
+
+                android:textSize="14dp"
+                android:textColor="@color/grey"/>
+            <TextView
+                android:id="@+id/anasayfaRecGun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Güncelle"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/gelirgider_gider_color"/>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

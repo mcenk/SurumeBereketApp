@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="15dp"
+
+    android:layout_margin="10dp"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/gider_linear_root"
+        android:layout_height="wrap_content"
+        android:background="#ED6C6C"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kategori"
+            android:textSize="17dp"
+            android:textColor="@color/grey"
+            android:id="@+id/dash_gider_kategoriTx"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/dash_gider_tutarTx"
+        android:layout_width="148dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="Tutar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/grey"
+        android:textSize="17dp"
+
+ />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TL"
+        android:layout_weight="2"
+        android:textSize="17dp"
+
+        android:textColor="@color/grey"
+
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="01 Ocak 2020"
+            android:textSize="17dp"
+            android:textColor="@color/grey"
+            android:id="@+id/dash_gider_tarihTx"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

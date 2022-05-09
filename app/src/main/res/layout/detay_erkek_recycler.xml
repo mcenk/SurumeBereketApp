@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buzagi_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/disiRecycler">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/buzagiDetayPhotoRc"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/newbull"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="5"
+                tools:layout_editor_absoluteX="80dp">
+
+                <TextView
+                    android:id="@+id/erkekDetayTarihRc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/hint"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/erkekDetayturuRc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+
+                    android:text="TextView"
+                    android:textColor="@color/hint"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/erkekDetayNotRc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+
+                    android:text="TextView"
+                    android:textColor="@color/hint"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <View
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/ic_refresh"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Güncelle"
+                android:textSize="12dp"
+                android:textColor="@color/grey"/>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
